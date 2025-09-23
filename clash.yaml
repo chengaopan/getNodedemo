@@ -11,7 +11,7 @@ proxies:
   - {name: "[VMess] 🇨🇦 _CA_加拿大", server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "[SS] 🇨🇭 _CH_瑞士", server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true, tfo: false}
   - {name: "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国", server: 107.167.182.230, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true, tfo: false}
-  - {name: "[VMess] 🇨🇳 江苏省 移动", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true, tfo: false}
+  - {name: "[VMess] 🇨🇳 江苏省 移动", server: v39.heduian.link, port: 30839, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国", server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[SS] 🇫🇷 _FR_法国", server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true, tfo: false}
   - {name: "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}, udp: true, tfo: false}
@@ -27,11 +27,9 @@ proxies:
   - {name: "[VMess] 🇺🇸 _US_美国_3", server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_4", server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_5", server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国 CloudFlare节点", server: s3.houge.ggff.net, port: 80, type: vmess, uuid: 305419ed-4ef5-3e5a-8d48-b803c58853d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai.in?=d2cea61d1fb4fbea81d762dad2795273", headers: {Host: d2cea61d1fb4fbea81d762dad2795273.s3.houge.ggff.net}}, udp: true, tfo: false}
   - {name: "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司", server: 71.19.148.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gqkUCvmeOTghYJXF1YIuk5, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国 阿里云", server: 47.239.128.194, port: 58056, type: vmess, uuid: 0d5a5091-c923-4fb6-9dfd-95ecfd60cdee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国 阿里云 2", server: 47.239.128.194, port: 55106, type: vmess, uuid: 5b9a5d1e-886e-4a33-b6e1-878907626448, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: false}
-  - {name: "[VMess] 🇺🇸 美国 阿里云 3", server: 47.239.128.194, port: 30244, type: vmess, uuid: b378eaa0-848f-43bb-b062-0244f9e070c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true, tfo: false}
+  - {name: "[Trojan] 🇺🇸 美国 惠普HP", server: 15.204.248.103, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rs3.freeguard.org, skip-cert-verify: true, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -64,11 +62,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -96,11 +92,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -128,11 +122,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -160,11 +152,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -193,11 +183,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -240,11 +228,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: 🇭🇰 香港
     type: select
     proxies:
@@ -271,11 +257,9 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 CloudFlare节点"
       - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司"
-      - "[VMess] 🇺🇸 美国 阿里云"
-      - "[VMess] 🇺🇸 美国 阿里云 2"
-      - "[VMess] 🇺🇸 美国 阿里云 3"
+      - "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2"
+      - "[Trojan] 🇺🇸 美国 惠普HP"
   - name: 🇹🇼 台湾
     type: select
     proxies:
