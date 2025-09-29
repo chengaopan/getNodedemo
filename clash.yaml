@@ -29,8 +29,8 @@ proxies:
   - {name: "[VMess] 🇺🇸 _US_美国_4", server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_5", server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: pl.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true, tfo: false}
-  - {name: "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2", server: 71.19.148.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gqkUCvmeOTghYJXF1YIuk5, udp: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司", server: 71.19.148.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: gqkUCvmeOTghYJXF1YIuk5, udp: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国 加利福尼亚州圣何塞PRGMR云计算公司 2", server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
