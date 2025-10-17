@@ -12,7 +12,7 @@ proxies:
   - {name: "[VMess] 🇨🇦 _CA_加拿大", server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "[SS] 🇨🇭 _CH_瑞士", server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true, tfo: false}
   - {name: "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国", server: 107.167.182.230, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0}, udp: true, tfo: false}
-  - {name: "[VMess] 🇨🇳 江苏省 移动", server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true, tfo: false}
+  - {name: "[VMess] 🇨🇳 江苏省 移动", server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: ocbc.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国", server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[SS] 🇫🇷 _FR_法国", server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true, tfo: false}
   - {name: "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}, udp: true, tfo: false}
@@ -21,18 +21,18 @@ proxies:
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2", server: 104.26.8.44, port: 80, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3", server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4", server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true, tfo: false}
-  - {name: "[SS] 🇮🇳 印度 V2CROSS.COM", server: id.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本 东京SAKURA数据中心", server: 153.121.56.122, port: 5321, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true, tfo: false}
-  - {name: "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2", server: 153.121.56.122, port: 5041, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[VMess] 🇯🇵 日本 东京Amazon数据中心", server: tls.17.node-for-bigairport.win, port: 23211, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.17.node-for-bigairport.win}}, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本 东京SAKURA数据中心", server: 153.121.56.122, port: 5041, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true, tfo: false}
+  - {name: "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2", server: 153.121.56.122, port: 5321, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.baidu.com, skip-cert-verify: true, udp: true, tfo: false}
   - {name: "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰", server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251522438}, udp: true, tfo: false}
   - {name: "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯", server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}, udp: true, tfo: false}
-  - {name: "[VMess] 🇸🇪 瑞典 V2CROSS.COM", server: 157.180.123.212, port: 10100, type: vmess, uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_1", server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_2", server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_3", server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_4", server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 _US_美国_5", server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 美国 CloudFlare节点", server: s1.db-link03.top, port: 80, type: vmess, uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dabai.in?=f7f48a0f7685b208efdf4956ae5eb0a0", headers: {Host: f7f48a0f7685b208efdf4956ae5eb0a0.s1.db-link03.top}}, udp: true, tfo: false}
+  - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: pl.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true, tfo: false}
   - {name: "[VMess] 🇺🇸 美国 惠普HP", server: 15204.57227.yixianled.com, port: 46354, type: vmess, uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15204.57227.yixianled.com}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 全球互联
@@ -60,18 +60,18 @@ proxy-groups:
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
-      - "[SS] 🇮🇳 印度 V2CROSS.COM"
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
-      - "[VMess] 🇸🇪 瑞典 V2CROSS.COM"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: 🎥 Netflix
     type: select
@@ -94,18 +94,18 @@ proxy-groups:
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
-      - "[SS] 🇮🇳 印度 V2CROSS.COM"
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
-      - "[VMess] 🇸🇪 瑞典 V2CROSS.COM"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: 📹 Youtube
     type: select
@@ -128,18 +128,18 @@ proxy-groups:
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
-      - "[SS] 🇮🇳 印度 V2CROSS.COM"
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
-      - "[VMess] 🇸🇪 瑞典 V2CROSS.COM"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: ▶️ Disney+
     type: select
@@ -162,18 +162,18 @@ proxy-groups:
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
-      - "[SS] 🇮🇳 印度 V2CROSS.COM"
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
-      - "[VMess] 🇸🇪 瑞典 V2CROSS.COM"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: 🌍 国外媒体
     type: select
@@ -197,18 +197,18 @@ proxy-groups:
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
-      - "[SS] 🇮🇳 印度 V2CROSS.COM"
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
-      - "[VMess] 🇸🇪 瑞典 V2CROSS.COM"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: 📲 Telegram
     type: select
@@ -246,18 +246,18 @@ proxy-groups:
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
-      - "[SS] 🇮🇳 印度 V2CROSS.COM"
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
-      - "[VMess] 🇸🇪 瑞典 V2CROSS.COM"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: 🇭🇰 香港
     type: select
@@ -266,6 +266,7 @@ proxy-groups:
   - name: 🇯🇵 日本
     type: select
     proxies:
+      - "[VMess] 🇯🇵 日本 东京Amazon数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心"
       - "[Trojan] 🇯🇵 日本 东京SAKURA数据中心 2"
   - name: 🇺🇲 美国
@@ -287,6 +288,7 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
       - "[VMess] 🇺🇸 美国 CloudFlare节点"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
       - "[VMess] 🇺🇸 美国 惠普HP"
   - name: 🇹🇼 台湾
     type: select
