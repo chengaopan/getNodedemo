@@ -13,6 +13,6 @@ fi
 echo get subscribe
 wget $subscribeclash -O ./clash.yaml
 wget $subscribeV2ray -O ./v2ray.txt
-echo get subscribe sucessfully
+echo get subscribe successfully
 echo hope you have a good day~
 echo bye~
